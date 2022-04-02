@@ -1,3 +1,6 @@
 [submodule "src/dr_libs"]
 	path = src/dr_libs
 	url = https://github.com/mackron/dr_libs.git
+[submodule "src/lodepng"]
+	path = src/lodepng
+	url = https://github.com/lvandeve/lodepng.git
