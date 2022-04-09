@@ -4,3 +4,6 @@
 [submodule "src/lodepng"]
 	path = src/lodepng
 	url = https://github.com/lvandeve/lodepng.git
+[submodule "src/libonnx"]
+	path = src/libonnx
+	url = https://github.com/xboot/libonnx.git
