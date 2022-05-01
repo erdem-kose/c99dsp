@@ -7,3 +7,6 @@
 [submodule "src/libonnx"]
 	path = src/libonnx
 	url = https://github.com/xboot/libonnx.git
+[submodule "tools/plplot"]
+	path = tools/plplot
+	url = git://git.code.sf.net/p/plplot/plplot
