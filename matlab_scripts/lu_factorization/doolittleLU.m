@@ -1,14 +1,3 @@
-clc; clear; close all;
-% https://www.geeksforgeeks.org/doolittle-algorithm-lu-decomposition/#:~:text=Doolittle's%20method%20provides%20an%20alternative,of%20L%20and%20U%20explicitly.
-
-A=[2 -1 -2;
-    -4 6 3;
-    -4 -2 8];
-
-[L_1,U_1,P]=doolittleLU(A);
-[L_2,U_2]=lu(A);
-
-A2=P'*L_1*U_1;
 function [L,U,P]=doolittleLU(A)
     [N,M]=size(A);
     L=zeros(N,M);
