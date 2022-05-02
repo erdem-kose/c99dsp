@@ -1,3 +1,5 @@
+% https://ccrma.stanford.edu/~jos/st/Bluestein_s_FFT_Algorithm.html
+
 function X=fft_bluestein(x,inv)
     N=size(x,2);
 

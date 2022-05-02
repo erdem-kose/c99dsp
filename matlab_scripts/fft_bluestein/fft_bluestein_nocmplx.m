@@ -1,3 +1,5 @@
+% https://ccrma.stanford.edu/~jos/st/Bluestein_s_FFT_Algorithm.html
+
 function [X_real, X_imag]=fft_bluestein_nocmplx(x_real,x_imag,inv)
     N=size(x_real,2);
 
